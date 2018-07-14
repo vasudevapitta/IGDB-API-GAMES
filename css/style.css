@@ -1,0 +1,126 @@
+body {
+    background-attachment: fixed;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    font: normal 16px/150% Arial, Helvetica, 'sans-serif';
+    padding: 0 10px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #games-input,
+  #searchButton,
+  .details {
+    cursor: pointer;
+  }
+  
+  #searchButton {
+    border: none;
+    height: 41px;
+    font-size: 30px;
+    background-color: #61e734;
+  }
+
+  #searchButton:focus {
+    outline: none;
+  }
+
+  #games-input {
+    width: 300px;
+    height: 35px;
+  }
+
+  .details {
+    height: 90px;
+    overflow-y: hidden;
+    display: flex;
+    padding: 5px;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    margin: 5px 0;
+    background-color: rgba(255,255,255,.9);
+    flex-direction: row;
+  }
+
+  #navbar {
+  z-index: 1;
+  position: fixed;
+  left: -18px;
+  top: 10px;
+  width: 100%;
+  }
+
+  .bg {
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  display: flex;
+  background-color: #fffac9;
+  padding: 5px;
+  align-items: center;
+  }
+
+/*---Number count in the top left corner---*/
+  #num {
+    font-size: 20px;
+    border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    border: 0px solid #000000;
+    padding: 2px 8px;
+    background-color: #e62a2a;
+  }
+  
+  .info {
+    width: 100%;
+  }
+
+  .close {
+    transform: translateY(25px);
+    position: relative;
+    color: #be7b10;
+    height: 30px;
+    font-size: 25px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .close:hover {
+    font-size: 27px;
+    color: #e3a33e;
+  }
+  
+  .full-height {
+    transition: height 0.5s ease;
+    height: 100%;
+  }
+
+  .img {
+    width: 100px;
+    height: 85px;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  h2 {
+    display: inline;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Search games from Internet Game Database">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+  <title>IGDB|Game Results</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<nav id="navbar" class="">
+  <div class="bg">
+  <input list="games-list" id="games-input" placeholder="Search Games">
+  <datalist id="games-list">
+  </datalist>
+  <button title="Click to Search" id="searchButton">+</button>
+  </div>
+</nav>
+
+  <h1>GameHub <span id="num">0</span></h1>
+  <div id="content">
+  </div>
+
+  <script type="text/JavaScript" src="js/app.js"></script>
+</body>
+</html>
