@@ -31,6 +31,10 @@ body {
     background-color: #61e734;
   }
 
+  #searchButton:hover {
+    background-color: #82ff59;
+  }
+
   #searchButton:focus {
     outline: none;
   }
@@ -49,8 +53,12 @@ body {
     -moz-border-radius: 7px 7px 7px 7px;
     -webkit-border-radius: 7px 7px 7px 7px;
     margin: 5px 0;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(232,232,232,.9);
     flex-direction: row;
+  }
+
+  .details:hover {
+    background-color: rgba(255,255,255,.9);
   }
 
   #navbar {

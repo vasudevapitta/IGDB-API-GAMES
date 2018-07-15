@@ -1,7 +1,6 @@
 $(()=>{
 
-/*##################################################################################################################*/
-/*---------------------------------------------------POLYFILL-------------------------------------------------------*/
+/*---------------------------------------------------POLYFILL-------------------------------------------------------
     const availableTags = $('#games-list').find('option').map(function () {
       return this.value;
     }).get();
@@ -18,8 +17,7 @@ $(()=>{
         $(this).autocomplete({ source: availableTags });
       });
     }
-/*##################################################################################################################*/
-
+--------------------------------------------------------------------------------------------------------------------*/
 
 const num = $("#num");
 const userKey = "c61eb3e89ac035974c4dbebfa783422e";
@@ -75,7 +73,7 @@ function printObject(obj) {
         <strong>Platforms:</strong> ${platforms}<br>
         <strong>Summary:</strong> ${sum} </p>`);
 
-      const newGame = $("<div class='details'><div class='img'></div><div class='info'></div><div class='close'><i class='fas fa-trash-alt'></i></div></div>");
+      const newGame = $("<div class='details'><div class='img'></div><div class='info'></div><div class='close' title='Click to Delete'><i class='fas fa-trash-alt'></i></div></div>");
 
       /*---Append the item to the DOM---*/
       $("#content").append(newGame);
