@@ -20,7 +20,7 @@ $(()=>{
 --------------------------------------------------------------------------------------------------------------------*/
 
 const num = $("#num");
-const userKey = "c61eb3e89ac035974c4dbebfa783422e";
+const userKey = "1e6632b6e0ff4f34fdc611d33b0f95cc";
 const contentType = "application/json";
 
 let numOfGames = 0;
